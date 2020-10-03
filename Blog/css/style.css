@@ -1,0 +1,121 @@
+
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+
+.clear {
+	clear: both;
+}
+
+body{
+	background-image: url('notebook.png');
+	background-color:#d6d6d6;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+h1,h4{
+	margin: 0;
+	text-align: justify;
+
+}
+
+#container{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 10px;
+
+
+
+
+	
+	
+	
+}
+
+#header{
+	margin-top: 20px;
+	padding: 30px;
+
+}
+
+
+#main{
+	background: pink;
+	padding: 50px;
+	width: 700px;
+    float: left;
+    border: 1px white solid;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+img{
+	width: 300px;
+}
+
+/* #layout{
+	background:white;
+	padding: 50px;
+	float: left;
+	
+	
+}  
+
+#down{
+	background: white;
+	padding: 50px;
+	float: left;
+	
+	
+	
+
+} */ 
+
+#sidebar{
+	background: peachpuff;
+  width:300px;
+  float:left; 
+ padding: 50px;
+ border-radius: 20px;
+
+
+}
+
+.oval{
+	 width: 160px;
+                height: 80px;
+                background: #a84909;
+                border-radius: 40px;
+}
+
+.vl{
+	 border-left: 6px ;
+  height: 500px;
+}
+#footer{
+	
+	padding: 40px;
+	
+}
+
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+
+
